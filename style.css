@@ -1,0 +1,250 @@
+* {
+
+    margin: 0 auto;
+
+}
+
+main {
+    width: 90%;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-image: url("./images/Banner\ Image.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-sub-title {
+    color: #FFFFFF;
+    font-size: 72px;
+}
+
+.banner-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.category {
+    text-align: center;
+}
+
+.percent-text {
+    color: tomato;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.category-sub-title {
+    font-size: 24px;
+    color: tomato;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.category-title {
+    font-size: 48px;
+}
+
+.category-img {
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.welcome-banner {
+    width: 100%;
+    height: 600px;
+    background-image: url("./images/Vectorrr.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.welcome-banner::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
+}
+
+.welcome-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.welcome-text {
+    color: #FFFFFF;
+    padding-left: 40px;
+}
+
+.welcome-title {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.welcome-sub-title {
+    font-size: 18px;
+
+}
+
+.welcome-text>a {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.welcome-img {
+    padding-right: 30px;
+    width: 320px;
+    height: 465px;
+    object-fit: cover;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px 0;
+}
+
+.place-title {
+    color: tomato;
+}
+
+.join-button {
+    background-color: tomato;
+    border: none;
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.comming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comming-content {
+    width: 25%;
+    margin: 0;
+}
+
+.comming-soon-title {
+    font-size: 24px;
+    color: tomato;
+}
+
+.comming-soon-sub-title {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.comming-content>p,
+.gallery-content>p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.comming-img-1 {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 10px solid tomato;
+    border-radius: 50%;
+}
+
+.discount-content {
+    text-align: center;
+}
+
+.discount-content>h2 {
+    font-size: 24px;
+}
+
+.discount-content>h1 {
+    font-size: 72px;
+    margin: 10px 0;
+}
+
+.discount-content>p {
+    line-height: 1.5;
+}
+
+.discount-content>h1>span {
+    color: tomato;
+}
+
+.discount-img {
+    margin-top: 25px;
+    margin-right: 0;
+    width: 360px;
+    height: 365px;
+    background-image: url("./images/Rectangle\ 1.png");
+    position: relative;
+}
+
+.discount-img>img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -25%;
+    top: 25%;
+}
+
+.discount-red-bg {
+    width: 100%;
+    height: 100px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-images img {
+    width: 30%;
+    margin: 0;
+}
